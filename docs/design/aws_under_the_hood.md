@@ -70,9 +70,9 @@ more details.
 
 By default on AWS:
 
-* Instances run Ubuntu 15.04 (the official AMI).  It includes a sufficiently
-  modern kernel that pairs well with Docker and doesn't require a
-  reboot. (The default SSH user is `ubuntu` for this and other ubuntu images.)
+* Instances run Debian 8 (jessie).  It includes a sufficiently modern kernel
+  that pairs well with Docker and doesn't require a reboot. (The default SSH
+  user is `admin` for this and other debian images.)
 * Nodes use aufs instead of ext4 as the filesystem / container storage (mostly
   because this is what Google Compute Engine uses).
 
